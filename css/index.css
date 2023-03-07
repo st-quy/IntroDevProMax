@@ -1,0 +1,268 @@
+
+/* Base UI */
+
+/* start of Header - Centre aligned with logo in middle between top links */
+
+.bs_header_layout_4 .bs_logo{
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+}
+.bs_header_layout_4 .bs_signup_btn{
+    border-radius: 0.25rem;
+    border: 1px solid #0e6efd;
+}
+.bs_header_layout_4 .bs_signin_btn{
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+}
+
+.bs_header_layout_4 .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
+}
+.bs_header_layout_4 .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.bs_header_layout_4 .navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.bs_header_layout_4 .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #0e6efd;
+}
+.bs_header_layout_4 .bs_show{
+    display: block !important;
+}
+.bs_header_layout_4 .dropdown-toggle::after{
+    content: "\f229";
+    vertical-align: middle;
+    font-family: bootstrap-icons;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    border: none;
+    font-size: 10px;
+}
+.bs_header_layout_4 .form-control:focus{
+    box-shadow: none;
+}
+/*For large device*/
+@media(min-width:1200px){
+    .bs_header_layout_4 .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .bs_header_layout_4 .navbar-expand-xl .navbar-nav .dropdown-menu {
+        box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    }
+    .bs_header_layout_4 .bs_lg_relative{
+        position: relative;
+    }
+    .bs_header_layout_4 .bs_xl_absolute{
+        position: absolute;
+    }
+    .bs_header_layout_4 .navbar-expand-xl .navbar-nav{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .bs_header_layout_4 .bs_signin_btn{
+        margin-right: 5px;
+    }
+    .bs_header_layout_4 .bs_signup_btn{
+        margin-left: 5px;
+    }
+
+    .bs_header_layout_4 .nav-item .bs_logo{
+        width: 100%;
+        height: 100%;
+    }
+    .bs_header_layout_4 .bs_md_display_none{
+        display: none;
+    }
+}
+@media(max-width:1199px){
+    .bs_header_layout_4 .bs_md_hide{
+        display: none;
+    }
+    .bs_header_layout_4 .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 4px;
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        top: 75px;
+        left: 0;
+        box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    }
+    .bs_header_layout_4 .nav-link {
+        display: block;
+        padding: 1rem 0;
+    }
+    .bs_header_layout_4 .bs_signin_btn,.bs_header_layout_4 .bs_signup_btn{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .bs_header_layout_4 .dropdown-menu{
+        padding: 0;
+        border:unset;
+    }
+    .bs_header_layout_4 .dropdown-item{
+        padding: 1rem;
+    }
+    .bs_header_layout_4 .bs_signin_btn,.bs_header_layout_4 .bs_signup_btn{
+        margin: auto;
+        padding: 0.7rem 0;
+        max-width: 150px;
+    }
+    .bs_header_layout_4 .navbar-nav,.bs_header_layout_4 .dropdown-item{
+        text-align: center;
+    }
+}
+
+/* end of Header - Centre aligned with logo in middle between top links */
+
+
+
+/* start of Features - Theme 8 */
+
+.bs_feature_layout_8 .bs_feature_icon{
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.bs_feature_layout_8 .bs_feature_icon i{
+    font-size: 25px;
+}
+.bs_feature_layout_8 .bs_features_info_title{
+    color: #3e4555;
+}
+.bs_feature_layout_8 .badge{
+    letter-spacing: 0.5px;
+}
+.bs_feature_layout_8 .bs_feature_img_block{
+    left: 45px;
+    right: 10px;
+    top: 30px;
+}
+
+/* end of Features - Theme 8 */
+
+
+
+/* start of Team 1 */
+
+.bs_team_container_1 .bs_rounded-1{
+    border-radius: 1rem;
+}
+.bs_team_container_1 .bs_team_member_info p{
+    margin-bottom: 2px;
+}
+
+/* end of Team 1 */
+
+
+
+/* start of Footer 4 */
+
+.bs_footer_layout4 a:hover {
+    color: #0a58ca !important;
+}
+.bs_footer_layout4 .bs_footer_widget_links,.bs_footer_middle_row_menu_list{
+    padding-left: 0;
+    list-style-type: none;
+}
+.bs_footer_layout4 .bs_footer_widget_links li{
+    padding: 10px 0;
+}
+
+.bs_footer_layout4 .bs_text_copyright{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.bs_footer_layout4 .bs_padding_left-5{
+    padding-left: 5px;
+}
+.bs_footer_layout4 .bs_fs-12{
+    font-size: 12px;
+}
+.bs_footer_layout4 .bs_footer_widget_title{
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+    color: #000;
+}
+.bs_footer_layout4 .bs_navlink{
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -o-font-smoothing: antialiased;
+    display: block;
+    padding: 4px 0;
+    color: #8f8f91;
+}
+.bs_footer_layout4 .bs_footer_copyright_row{
+    width: 100%;
+}
+.bs_footer_layout4 .bs_footer_social_links{
+    text-align: center;
+}
+.bs_footer_layout4 .bs_footer_middle_row_menu_list li{
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 4px;
+    padding: 0 20px;
+    position: relative;
+    color: #333;
+}
+.bs_footer_layout4 .bs_footer_middle_row_menu_list li a{
+    display: inline-block;
+    color: #e8e8e8;
+    padding: 4px 12px;
+    margin: -4px -12px;
+}
+.bs_footer_layout4 .bs_footer_social_links i{
+    font-size: 22px;
+}
+/*For medium device*/
+@media(min-width:768px){
+    .bs_footer_layout4 .bs_footer_copyright_row{
+        display: flex;
+        justify-content: space-between;
+        align-items:  center;
+    }
+    .bs_footer_layout4 .bs_footer_social_links{
+        text-align: center;
+    }
+    .bs_footer_layout4 .bs_footer_middle_row_menu_list li{
+        display: inline;
+    }
+
+    .bs_footer_layout4 .bs_footer_middle_row_menu_list li:last-child:after{
+        border-right: unset;
+    }
+}
+/*For small device*/
+@media(max-width:479px){
+    .bs_footer_layout4 .footer_logo,.bs_footer_layout4 .bs_text_copyright{
+        padding-bottom: 0.5rem;
+    }
+}
+@media(max-width:767px){
+    .bs_footer_layout4 .bs_footer_col{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* end of Footer 4 */
+
+/* Can't Code Here Base UI */
+
