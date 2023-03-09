@@ -16,6 +16,9 @@
     border: 1px solid #000;
     border-radius: 0.25rem;
 }
+.bs_header_layout_4 .navbar-toggler{
+    display: none;
+}
 
 .bs_header_layout_4 .navbar-toggler:focus {
     box-shadow: 0 0 0 0.1rem;
