@@ -4,7 +4,7 @@
 /* start of Header - Centre aligned with logo in middle between top links */
 
 .bs_header_layout_4 .bs_logo{
-    width: 100%;
+    width: 50%;
     height: auto;
     max-width: 350px;
 }
@@ -145,7 +145,6 @@
 .bs_feature_layout_8 .bs_feature_img_block{
     left: 45px;
     right: 10px;
-    top: 30px;
 }
 
 /* end of Features - Theme 8 */
@@ -248,17 +247,29 @@
     .bs_footer_layout4 .bs_footer_middle_row_menu_list li:last-child:after{
         border-right: unset;
     }
+
+}
+@media(max-width:992px){
+    .simili-man{
+        width: 100%;
+    }
 }
 /*For small device*/
-@media(max-width:479px){
+@media(max-width:992px){
     .bs_footer_layout4 .footer_logo,.bs_footer_layout4 .bs_text_copyright{
         padding-bottom: 0.5rem;
+    }
+    .simili-man{
+        display: none;
     }
 }
 @media(max-width:767px){
     .bs_footer_layout4 .bs_footer_col{
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .simili-man{
+        display: none;
     }
 }
 
